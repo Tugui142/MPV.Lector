@@ -1,4 +1,6 @@
 streamlit
 gTTS
-EbookLib
-beautifulsoup4
+numpy
+Pillow
+opencv-python-headless
+ultralytics
