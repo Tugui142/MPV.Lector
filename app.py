@@ -49,7 +49,7 @@ if archivo_subido is not None:
                     # Cortamos el texto para la prueba (gTTS puede tardar mucho con un capítulo entero)
                     texto_prueba = texto_puro[:1000]
                     
-                    tts = gTTS(texto=texto_prueba, lang='es')
+                    tts = gTTS(text=texto_prueba, lang='es')
                     
                     # Guardar el audio en memoria
                     audio_fp = io.BytesIO()
